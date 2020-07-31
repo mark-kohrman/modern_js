@@ -18,5 +18,9 @@
   "homepage": "https://github.com/mark-kohrman/modern_js#readme",
   "dependencies": {
     "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
