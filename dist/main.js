@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"sup\");\n\nconsole.log(moment().format('ll'));\n\nconsole.log(moment().format('LLLL'));\n\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"sup\");\nconsole.log(moment().format('ll'));\nconsole.log(moment().format('LLLL'));\nvar x = \"monkey\";\nvar y = \"around\";\nconsole.log(\"\".concat(x).concat(y));\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
